@@ -9,6 +9,8 @@ The purpose linear model that I designed is to predict the mpg of a vehicle by u
 
 ## Summary Statistics on Suspension Coils
 
+There are two separate tables stating the mean, median, variance and standard deviation. One of theese tables takes all of the data into account in order to determien these statistics. The other table splits the data into 3 different sets grouped by lot number. The specifications for the design state that the variance of the suspension coils should not exceed 100. 
+
 When looking at the total summary of the current manufacturing data it does meet the design specification. The variance of this is set is 62.29 PSI which is below the 100 threshold. 
 
 ![image](https://user-images.githubusercontent.com/87450415/149436449-deadbe38-29d8-4d66-ba9f-4ee628b20fdb.png)
@@ -19,6 +21,12 @@ When taking a look at the lots individually all meet the design speficiation exc
 
 
 ## T-Tests on Suspension Coils
+
+![image](https://user-images.githubusercontent.com/87450415/149609228-d300ef4c-1628-4f8f-86d8-61fce915ff14.png)
+
+![image](https://user-images.githubusercontent.com/87450415/149609239-15c92d3b-784d-48ec-aebd-8d5dca1f29a3.png)
+
+![image](https://user-images.githubusercontent.com/87450415/149609247-37abe430-9891-4748-bbc8-f23fb9df875f.png)
 
 
 
