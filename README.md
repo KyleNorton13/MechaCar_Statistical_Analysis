@@ -9,7 +9,7 @@ The purpose linear model that I designed is to predict the mpg of a vehicle by u
 
 ## Summary Statistics on Suspension Coils
 
-There are two separate tables stating the mean, median, variance and standard deviation. One of theese tables takes all of the data into account in order to determien these statistics. The other table splits the data into 3 different sets grouped by lot number. The specifications for the design state that the variance of the suspension coils should not exceed 100. 
+There are two separate tables stating the mean, median, variance and standard deviation. One of theese tables takes all of the data into account in order to determine these statistics. The other table splits the data into 3 different sets grouped by lot number. The specifications for the design state that the variance of the suspension coils should not exceed 100. 
 
 When looking at the total summary of the current manufacturing data it does meet the design specification. The variance of this is set is 62.29 PSI which is below the 100 threshold. 
 
@@ -22,6 +22,8 @@ When taking a look at the lots individually all meet the design speficiation exc
 
 ## T-Tests on Suspension Coils
 
+T-tests were conducted to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. The T-tests are below which show the P-value of each lot which is the statistic used to determine this. 
+
 ![image](https://user-images.githubusercontent.com/87450415/149609228-d300ef4c-1628-4f8f-86d8-61fce915ff14.png)
 
 ![image](https://user-images.githubusercontent.com/87450415/149609239-15c92d3b-784d-48ec-aebd-8d5dca1f29a3.png)
@@ -31,6 +33,8 @@ When taking a look at the lots individually all meet the design speficiation exc
 
 
 ## Study Design: MechaCar vs Competition
+
+The statisticalstudy that I would perform would be a linear regression and t-tests to determine the predicted cost of a vehicle. This test would help consumers determine is the current price of a car is overvalued or undervalued. The independent variable that I would use would be horsepower, vehicle weight, vehicle length, mpg, and color. My null hypthesis is that horespower, color and mpg would produce the greatest significance and vehicle weight and length would produce little signifcance. Analayzing these metrics would allow consumers to understand what is valued when the price is set from the car and distringuish between what factors they value most. 
 
 
 
